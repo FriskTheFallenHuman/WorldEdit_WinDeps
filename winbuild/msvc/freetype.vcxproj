@@ -330,6 +330,7 @@
     <ClCompile Include="..\freetype\src\sfnt\sfnt.c" />
     <ClCompile Include="..\freetype\src\smooth\smooth.c" />
     <ClCompile Include="..\freetype\src\sdf\sdf.c" />
+    <ClCompile Include="..\freetype\src\svg\svg.c" />
     <ClCompile Include="..\freetype\src\truetype\truetype.c" />
     <ClCompile Include="..\freetype\src\type1\type1.c" />
     <ClCompile Include="..\freetype\src\type42\type42.c" />
