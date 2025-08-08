@@ -4,7 +4,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <OutDir>$(OutputBase)/openal/bin/</OutDir>
-    <TargetName>$(ProjectName)$(LibSuffix)-vc$(PlatformToolsetVersion)</TargetName>
+    <TargetName>OpenAL32</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
