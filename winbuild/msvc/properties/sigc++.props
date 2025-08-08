@@ -3,19 +3,14 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <OutDir>$(OutputBase)/libsigc++/bin/</OutDir>
+    <OutDir>$(OutputBase)/libsigc++/lib/</OutDir>
     <TargetName>$(ProjectName)$(LibSuffix)-vc$(PlatformToolsetVersion)</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
-      <PreprocessorDefinitions>_CONSOLE;SIGC_BUILD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(WinDepsDir)libsigc++\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>SIGC_BUILD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(WinBuildDir)libsigc++\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
-    <Link>
-      <ModuleDefinitionFile>
-      </ModuleDefinitionFile>
-      <ImportLibrary>$(OutputBase)libsigc++\lib\$(TargetName).lib</ImportLibrary>
-    </Link>
   </ItemDefinitionGroup>
   <ItemGroup />
 </Project>

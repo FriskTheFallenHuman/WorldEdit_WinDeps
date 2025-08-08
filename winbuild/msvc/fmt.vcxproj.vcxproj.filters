@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\fmt\src\format.cc">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\fmt\src\os.cc">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\fmt\include\fmt\core.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmt\include\fmt\args.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmt\include\fmt\base.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmt\include\fmt\chrono.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmt\include\fmt\color.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmt\include\fmt\compile.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmt\include\fmt\format.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmt\include\fmt\format-inl.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmt\include\fmt\os.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmt\include\fmt\ostream.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmt\include\fmt\printf.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmt\include\fmt\ranges.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmt\include\fmt\std.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\fmt\include\fmt\xchar.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{9ff992bd-ca05-44fb-afb9-9b65c76759b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{d89cbe25-7e72-456c-9edc-44980161ee61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

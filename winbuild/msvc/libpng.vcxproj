@@ -58,6 +58,14 @@
     <ClCompile Include="..\libpng\pngwtran.c" />
     <ClCompile Include="..\libpng\pngwutil.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libpng\png.h" />
+    <ClInclude Include="..\libpng\pngdebug.h" />
+    <ClInclude Include="..\libpng\pnginfo.h" />
+    <ClInclude Include="..\libpng\pnglibconf.h" />
+    <ClInclude Include="..\libpng\pngpriv.h" />
+    <ClInclude Include="..\libpng\pngstruct.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D6973076-9317-4EF2-A0B8-B7A18AC0713E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>

@@ -19,152 +19,152 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\libjpeg\ansi2knr.c">
+    <ClCompile Include="..\libjpeg\src\ansi2knr.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\libjpeg\cdjpeg.c">
+    <ClCompile Include="..\libjpeg\src\cdjpeg.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\libjpeg\cjpeg.c">
+    <ClCompile Include="..\libjpeg\src\cjpeg.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\libjpeg\ckconfig.c">
+    <ClCompile Include="..\libjpeg\src\ckconfig.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\libjpeg\djpeg.c">
+    <ClCompile Include="..\libjpeg\src\djpeg.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\libjpeg\example.c">
+    <ClCompile Include="..\libjpeg\src\example.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\libjpeg\jaricom.c" />
-    <ClCompile Include="..\libjpeg\jcapimin.c" />
-    <ClCompile Include="..\libjpeg\jcapistd.c" />
-    <ClCompile Include="..\libjpeg\jcarith.c" />
-    <ClCompile Include="..\libjpeg\jccoefct.c" />
-    <ClCompile Include="..\libjpeg\jccolor.c" />
-    <ClCompile Include="..\libjpeg\jcdctmgr.c" />
-    <ClCompile Include="..\libjpeg\jchuff.c" />
-    <ClCompile Include="..\libjpeg\jcinit.c" />
-    <ClCompile Include="..\libjpeg\jcmainct.c" />
-    <ClCompile Include="..\libjpeg\jcmarker.c" />
-    <ClCompile Include="..\libjpeg\jcmaster.c" />
-    <ClCompile Include="..\libjpeg\jcomapi.c" />
-    <ClCompile Include="..\libjpeg\jcparam.c" />
-    <ClCompile Include="..\libjpeg\jcprepct.c" />
-    <ClCompile Include="..\libjpeg\jcsample.c" />
-    <ClCompile Include="..\libjpeg\jctrans.c" />
-    <ClCompile Include="..\libjpeg\jdapimin.c" />
-    <ClCompile Include="..\libjpeg\jdapistd.c" />
-    <ClCompile Include="..\libjpeg\jdarith.c" />
-    <ClCompile Include="..\libjpeg\jdatadst.c" />
-    <ClCompile Include="..\libjpeg\jdatasrc.c" />
-    <ClCompile Include="..\libjpeg\jdcoefct.c" />
-    <ClCompile Include="..\libjpeg\jdcolor.c" />
-    <ClCompile Include="..\libjpeg\jddctmgr.c" />
-    <ClCompile Include="..\libjpeg\jdhuff.c" />
-    <ClCompile Include="..\libjpeg\jdinput.c" />
-    <ClCompile Include="..\libjpeg\jdmainct.c" />
-    <ClCompile Include="..\libjpeg\jdmarker.c" />
-    <ClCompile Include="..\libjpeg\jdmaster.c" />
-    <ClCompile Include="..\libjpeg\jdmerge.c" />
-    <ClCompile Include="..\libjpeg\jdpostct.c" />
-    <ClCompile Include="..\libjpeg\jdsample.c" />
-    <ClCompile Include="..\libjpeg\jdtrans.c" />
-    <ClCompile Include="..\libjpeg\jerror.c" />
-    <ClCompile Include="..\libjpeg\jfdctflt.c" />
-    <ClCompile Include="..\libjpeg\jfdctfst.c" />
-    <ClCompile Include="..\libjpeg\jfdctint.c" />
-    <ClCompile Include="..\libjpeg\jidctflt.c" />
-    <ClCompile Include="..\libjpeg\jidctfst.c" />
-    <ClCompile Include="..\libjpeg\jidctint.c" />
-    <ClCompile Include="..\libjpeg\jmemansi.c">
+    <ClCompile Include="..\libjpeg\src\jaricom.c" />
+    <ClCompile Include="..\libjpeg\src\jcapimin.c" />
+    <ClCompile Include="..\libjpeg\src\jcapistd.c" />
+    <ClCompile Include="..\libjpeg\src\jcarith.c" />
+    <ClCompile Include="..\libjpeg\src\jccoefct.c" />
+    <ClCompile Include="..\libjpeg\src\jccolor.c" />
+    <ClCompile Include="..\libjpeg\src\jcdctmgr.c" />
+    <ClCompile Include="..\libjpeg\src\jchuff.c" />
+    <ClCompile Include="..\libjpeg\src\jcinit.c" />
+    <ClCompile Include="..\libjpeg\src\jcmainct.c" />
+    <ClCompile Include="..\libjpeg\src\jcmarker.c" />
+    <ClCompile Include="..\libjpeg\src\jcmaster.c" />
+    <ClCompile Include="..\libjpeg\src\jcomapi.c" />
+    <ClCompile Include="..\libjpeg\src\jcparam.c" />
+    <ClCompile Include="..\libjpeg\src\jcprepct.c" />
+    <ClCompile Include="..\libjpeg\src\jcsample.c" />
+    <ClCompile Include="..\libjpeg\src\jctrans.c" />
+    <ClCompile Include="..\libjpeg\src\jdapimin.c" />
+    <ClCompile Include="..\libjpeg\src\jdapistd.c" />
+    <ClCompile Include="..\libjpeg\src\jdarith.c" />
+    <ClCompile Include="..\libjpeg\src\jdatadst.c" />
+    <ClCompile Include="..\libjpeg\src\jdatasrc.c" />
+    <ClCompile Include="..\libjpeg\src\jdcoefct.c" />
+    <ClCompile Include="..\libjpeg\src\jdcolor.c" />
+    <ClCompile Include="..\libjpeg\src\jddctmgr.c" />
+    <ClCompile Include="..\libjpeg\src\jdhuff.c" />
+    <ClCompile Include="..\libjpeg\src\jdinput.c" />
+    <ClCompile Include="..\libjpeg\src\jdmainct.c" />
+    <ClCompile Include="..\libjpeg\src\jdmarker.c" />
+    <ClCompile Include="..\libjpeg\src\jdmaster.c" />
+    <ClCompile Include="..\libjpeg\src\jdmerge.c" />
+    <ClCompile Include="..\libjpeg\src\jdpostct.c" />
+    <ClCompile Include="..\libjpeg\src\jdsample.c" />
+    <ClCompile Include="..\libjpeg\src\jdtrans.c" />
+    <ClCompile Include="..\libjpeg\src\jerror.c" />
+    <ClCompile Include="..\libjpeg\src\jfdctflt.c" />
+    <ClCompile Include="..\libjpeg\src\jfdctfst.c" />
+    <ClCompile Include="..\libjpeg\src\jfdctint.c" />
+    <ClCompile Include="..\libjpeg\src\jidctflt.c" />
+    <ClCompile Include="..\libjpeg\src\jidctfst.c" />
+    <ClCompile Include="..\libjpeg\src\jidctint.c" />
+    <ClCompile Include="..\libjpeg\src\jmemansi.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\libjpeg\jmemdos.c">
+    <ClCompile Include="..\libjpeg\src\jmemdos.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\libjpeg\jmemmac.c">
+    <ClCompile Include="..\libjpeg\src\jmemmac.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\libjpeg\jmemmgr.c" />
-    <ClCompile Include="..\libjpeg\jmemname.c">
+    <ClCompile Include="..\libjpeg\src\jmemmgr.c" />
+    <ClCompile Include="..\libjpeg\src\jmemname.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\libjpeg\jmemnobs.c" />
-    <ClCompile Include="..\libjpeg\jpegtran.c">
+    <ClCompile Include="..\libjpeg\src\jmemnobs.c" />
+    <ClCompile Include="..\libjpeg\src\jpegtran.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\libjpeg\jquant1.c" />
-    <ClCompile Include="..\libjpeg\jquant2.c" />
-    <ClCompile Include="..\libjpeg\jutils.c" />
-    <ClCompile Include="..\libjpeg\rdbmp.c" />
-    <ClCompile Include="..\libjpeg\rdcolmap.c" />
-    <ClCompile Include="..\libjpeg\rdgif.c" />
-    <ClCompile Include="..\libjpeg\rdjpgcom.c">
+    <ClCompile Include="..\libjpeg\src\jquant1.c" />
+    <ClCompile Include="..\libjpeg\src\jquant2.c" />
+    <ClCompile Include="..\libjpeg\src\jutils.c" />
+    <ClCompile Include="..\libjpeg\src\rdbmp.c" />
+    <ClCompile Include="..\libjpeg\src\rdcolmap.c" />
+    <ClCompile Include="..\libjpeg\src\rdgif.c" />
+    <ClCompile Include="..\libjpeg\src\rdjpgcom.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\libjpeg\rdppm.c" />
-    <ClCompile Include="..\libjpeg\rdrle.c" />
-    <ClCompile Include="..\libjpeg\rdswitch.c" />
-    <ClCompile Include="..\libjpeg\rdtarga.c" />
-    <ClCompile Include="..\libjpeg\transupp.c" />
-    <ClCompile Include="..\libjpeg\wrbmp.c" />
-    <ClCompile Include="..\libjpeg\wrgif.c" />
-    <ClCompile Include="..\libjpeg\wrjpgcom.c" />
-    <ClCompile Include="..\libjpeg\wrppm.c" />
-    <ClCompile Include="..\libjpeg\wrrle.c" />
-    <ClCompile Include="..\libjpeg\wrtarga.c" />
+    <ClCompile Include="..\libjpeg\src\rdppm.c" />
+    <ClCompile Include="..\libjpeg\src\rdrle.c" />
+    <ClCompile Include="..\libjpeg\src\rdswitch.c" />
+    <ClCompile Include="..\libjpeg\src\rdtarga.c" />
+    <ClCompile Include="..\libjpeg\src\transupp.c" />
+    <ClCompile Include="..\libjpeg\src\wrbmp.c" />
+    <ClCompile Include="..\libjpeg\src\wrgif.c" />
+    <ClCompile Include="..\libjpeg\src\wrjpgcom.c" />
+    <ClCompile Include="..\libjpeg\src\wrppm.c" />
+    <ClCompile Include="..\libjpeg\src\wrrle.c" />
+    <ClCompile Include="..\libjpeg\src\wrtarga.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\windeps\libjpeg\include\cderror.h" />
-    <ClInclude Include="..\..\windeps\libjpeg\include\cdjpeg.h" />
-    <ClInclude Include="..\..\windeps\libjpeg\include\jconfig.h" />
-    <ClInclude Include="..\..\windeps\libjpeg\include\jdct.h" />
-    <ClInclude Include="..\..\windeps\libjpeg\include\jerror.h" />
-    <ClInclude Include="..\..\windeps\libjpeg\include\jinclude.h" />
-    <ClInclude Include="..\..\windeps\libjpeg\include\jmemsys.h" />
-    <ClInclude Include="..\..\windeps\libjpeg\include\jmorecfg.h" />
-    <ClInclude Include="..\..\windeps\libjpeg\include\jpegint.h" />
-    <ClInclude Include="..\..\windeps\libjpeg\include\jpeglib.h" />
-    <ClInclude Include="..\..\windeps\libjpeg\include\jversion.h" />
-    <ClInclude Include="..\..\windeps\libjpeg\include\transupp.h" />
+    <ClInclude Include="..\libjpeg\include\cderror.h" />
+    <ClInclude Include="..\libjpeg\include\cdjpeg.h" />
+    <ClInclude Include="..\libjpeg\include\jconfig.h" />
+    <ClInclude Include="..\libjpeg\include\jdct.h" />
+    <ClInclude Include="..\libjpeg\include\jerror.h" />
+    <ClInclude Include="..\libjpeg\include\jinclude.h" />
+    <ClInclude Include="..\libjpeg\include\jmemsys.h" />
+    <ClInclude Include="..\libjpeg\include\jmorecfg.h" />
+    <ClInclude Include="..\libjpeg\include\jpegint.h" />
+    <ClInclude Include="..\libjpeg\include\jpeglib.h" />
+    <ClInclude Include="..\libjpeg\include\jversion.h" />
+    <ClInclude Include="..\libjpeg\include\transupp.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{13F034FC-2F0F-474E-B362-1C5750613C52}</ProjectGuid>

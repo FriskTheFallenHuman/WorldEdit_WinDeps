@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\libogg\src\framing.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libogg\src\bitwise.c">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libogg\src\crctable.h">
+      <Filter>Headers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\libogg\include\ogg\ogg.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libogg\include\ogg\os_types.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{d4abd8b7-296a-43ee-baa0-b4bcfae67552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{bdc8e274-2643-41f2-95d5-00e0c66ad888}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
